@@ -13,7 +13,7 @@ const Home = () => {
 
         <div className='HomeText'>
           <h1>Hi There!</h1>
-          <h1>I'M <b>DEVANSH SAHNI</b></h1>
+          <h1>I'M <b>BHAVIK BALPANDE</b></h1>
           <Typed/>   
         </div>
 
@@ -26,22 +26,30 @@ const Home = () => {
       </div>
 
       <div className='AboutPage'>
-        <div className='AboutText'>
-          <h1 className='AboutTextHeading'>Brief <b>introduction</b></h1>
-          <p>
-            I love the process of changing a raw idea into a website or a product 
-            that impacts lives. 
-            I want to do work that challenges me as a developer & work that I can 
-            be proud of.<br /><br />
-            I am fluent in <b>C++</b> and know a bit of <b>Python</b> and am working on a few 
-            projects in the <b>MERN</b> stack.<br />
-            I plan to learn <b>Next.js</b>, <b>Three.js</b> and<b> Typescript</b> in the near future. <br /><br />
-            Also, I love <b>coffee</b> <CiCoffeeCup style={{scale:"1.5", rotate:"15deg"}}/>   
-          </p>
-        </div>
         <Tilt>
           <img className='Avatar' src={Avatar} alt="" />
         </Tilt>
+        <div className='AboutText'>
+        
+          <h1 className='AboutTextHeading'>Brief <b>Introduction</b></h1>
+          <p>
+            I am passionate about transforming ideas into impactful digital experiences.  
+            As a <b>Web Developer</b>, I thrive on solving complex problems and building scalable,  
+            high-performance applications. My goal is to create innovative solutions  
+            that push my skills and contribute meaningfully to the tech space. <br /><br />
+
+            My expertise includes <b>TypeScript, JavaScript, HTML, CSS, SQL, Next.js, React.js,  
+            Tailwind CSS, Material-UI, WordPress, Node.js, Express.js, MySQL, and MongoDB</b>.  
+            I continuously explore new technologies to enhance my development stack.<br /><br />
+
+            Currently, I am focusing on expanding my knowledge of <b>Next.js</b>,  
+            <b>Three.js</b>, and advanced <b>TypeScript</b> concepts. <br /><br />
+
+            Also, I love <b>coffee</b> <CiCoffeeCup style={{ scale: "1.5", rotate: "15deg" }} />   
+          </p>
+        </div>
+
+       
       </div>
     </div>
   )
