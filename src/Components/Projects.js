@@ -102,7 +102,7 @@ const Projects = () => {
 
   // ProjectBox component integrated directly
   const ProjectBox = ({ project }) => {
-    return (
+    return ( 
       <div className='projectBox'> 
         <img className='projectPhoto' src={project.photo} alt={`${project.name} project display`} /> 
         <div>
@@ -141,3 +141,6 @@ const Projects = () => {
 };
 
 export default Projects;
+
+
+
