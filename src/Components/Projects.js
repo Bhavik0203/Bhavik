@@ -26,6 +26,14 @@ const Projects = () => {
       company: "Coming Soon"
     },
     {
+      name: "Property Drone Dashboard",
+      photo: drone,
+      description: "KLAS Infotech Dashboard Built with Next.js and styled using Tailwind CSS. backend API is built using Node.js and Express.js.",
+      github: "",
+      website: "",
+      company: "Coming Soon"
+    },
+    {
       name: "ROI Sir ",
       photo: roi,
       description: "ROI Sir Website Built with Next.js and styled using Tailwind CSS.",
@@ -53,6 +61,14 @@ const Projects = () => {
       name: "CFRE",
       photo: CFRE,
       description: "A fast and powerful real estate platform with a strong search bar and multiple filters for precise property searches. It integrates multiple APIs for real-time listings, Google Maps, payments, and CRM sync. Optimized for high performance, scalability, and seamless user experience across devices.",
+      github: "",
+      website: "https://www.cfrerealty.com/",
+      company: "DTG"
+    },
+    {
+      name: "CFRE Dashboard",
+      photo: CFRE,
+      description: "KLAS Infotech Dashboard Built with React.js and styled using Tailwind CSS, Backend API is built using Node.js and Express.js.",
       github: "",
       website: "https://www.cfrerealty.com/",
       company: "DTG"
