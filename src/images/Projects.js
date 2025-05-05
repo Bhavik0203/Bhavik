@@ -3,24 +3,24 @@ import { FaGithub } from "react-icons/fa";
 import { CgFileDocument } from "react-icons/cg";
 
 // Import images
-import affluentinterio from '../images/aff.png';
+import affluentinterio from '../images/Bhavik-08.jpg';
 import RogfreeImage from '../images/RogfreeImage.png';
 import TindogImage from '../images/TindogImage.png';
-import greeks from '../images/greeks.png';
-import elite24 from '../images/elite24.png';
-import CFRE from '../images/cfre.png';
-import klas from '../images/klas.png';
-import build from '../images/build.png';
-import roi from '../images/roi.png';
-import drone from '../images/drone.png';
+import greeks from '../images/Bhavik-02.jpg';
+import elite24 from '../images/Bhavik_Laptop Realistic.jpg';
+import CFRE from '../images/Bhavik-09.jpg';
+import klas from '../images/Bhavik-03.jpg';
+import build from '../images/Bhavik-05.jpg';
+import roi from '../images/Bhavik-04.jpg';
+import drone from '../images/Bhavik-10.jpg';
 
 const Projects = () => {
   // Project data in a single array for easy mapping
   const projectsData = [
     {
-      name: "Property Drone",
-      photo: drone,
-      description: "KLAS Infotech Website Built with Next.js and styled using Tailwind CSS.",
+      name: "Property Droneghjhghjgjhjh",
+      photo: drone, 
+      description: "Property Drone Website Built with Next.js and styled using Tailwind CSS.",
       github: "",
       website: "",
       company: "Coming Soon"
@@ -28,7 +28,7 @@ const Projects = () => {
     {
       name: "Property Drone Dashboard",
       photo: drone,
-      description: "KLAS Infotech Dashboard Built with Next.js and styled using Tailwind CSS. backend API is built using Node.js and Express.js.",
+      description: "Property Drone Dashboard Built with Next.js and styled using Tailwind CSS. backend API is built using Node.js and Express.js.",
       github: "",
       website: "",
       company: "Coming Soon"
